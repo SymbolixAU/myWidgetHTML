@@ -23,6 +23,7 @@ myHTML <- function(message, width = NULL, height = NULL) {
 }
 
 #' @import htmltools
+#' @export
 myHTML_html <- function(id, class, style, ...){
 	myString <- "hello world"
 	tags$p(myString)
