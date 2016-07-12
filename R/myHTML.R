@@ -9,7 +9,7 @@ myHTML <- function(message, width = NULL, height = NULL) {
 
   # forward options using x
   x = list(
-    message = message
+  	message = message
   )
 
   # create widget
@@ -25,8 +25,7 @@ myHTML <- function(message, width = NULL, height = NULL) {
 #' @import htmltools
 #' @export
 myHTML_html <- function(id, class, style, ...){
-	myString <- "hello world"
-	tags$p(myString)
+	tags$script(id = "my_script")
 }
 
 #' Shiny bindings for myHTML

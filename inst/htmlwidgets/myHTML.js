@@ -13,7 +13,23 @@ HTMLWidgets.widget({
       renderValue: function(x) {
 
         // TODO: code to render the widget, e.g.
-        el.innerText = x.message;
+        //el.innerText = x.message;
+
+        //document.getElementById("my_script").innerHTML = "<p>test_html</P>";
+
+        //$('#my_script').html('<p>test_html</p>');
+/*
+				var script = document.createElement('script');
+        script.type = 'text/javascript';
+
+        if (style.styleSheet)
+          style.styleSheet.cssText = x.css;
+        else
+          style.appendChild(document.createTextNode(x.css));
+
+        document.getElementsByTagName("head").appendChild(style);
+*/
+				el.innerHTML = "<p>" + x.message + "</p>"
 
       },
 
