@@ -2,7 +2,6 @@
 
 export(myHTML)
 export(myHTMLOutput)
-export(myHTML_html)
 export(renderMyHTML)
 import(htmltools)
 import(htmlwidgets)

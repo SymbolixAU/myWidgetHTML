@@ -22,12 +22,6 @@ myHTML <- function(message, width = NULL, height = NULL) {
   )
 }
 
-#' @import htmltools
-#' @export
-myHTML_html <- function(id, class, style, ...){
-	tags$script(id = "my_script")
-}
-
 #' Shiny bindings for myHTML
 #'
 #' Output and render functions for using myHTML within Shiny
