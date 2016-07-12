@@ -18,7 +18,7 @@ HTMLWidgets.widget({
         //document.getElementById("my_script").innerHTML = "<p>test_html</P>";
 
         //$('#my_script').html('<p>test_html</p>');
-/*
+        /*
 				var script = document.createElement('script');
         script.type = 'text/javascript';
 
@@ -28,8 +28,8 @@ HTMLWidgets.widget({
           style.appendChild(document.createTextNode(x.css));
 
         document.getElementsByTagName("head").appendChild(style);
-*/
-				el.innerHTML = "<p>" + x.message + "</p>"
+				*/
+         el.innerHTML = "<p>" + x.message + "</p>"
 
       },
 
